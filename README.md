@@ -1,6 +1,6 @@
 # Amazon Product Reviews Analysis
 
-This repository contains a Jupyter Notebook script for analyzing Amazon product reviews using Python. The script performs sentiment analysis and generates word clouds to visualize the most frequent positive and negative words in the reviews.
+This repository contains a Jupyter Notebook script for analysing Amazon product reviews using Python. The script performs sentiment analysis and generates word clouds to visualize the most frequent positive and negative words in the reviews.
 
 ## Prerequisites
 
@@ -35,6 +35,6 @@ Run each cell in the notebook to execute the script step by step.
 Importing Libraries: The script begins by importing necessary libraries including NumPy, pandas, spaCy, spaCy TextBlob, and others.
 Loading Dataset: The Amazon product reviews dataset is loaded into a pandas DataFrame for analysis.
 Data Cleaning: Rows with missing values are dropped from the dataset.
-Text Preprocessing: A function is defined to preprocess the text data by removing stopwords, punctuation, and lemmatizing words.
+Text Preprocessing: A function is defined to preprocess the text data by removing stopwords, punctuation, and lemmatising words.
 Sentiment Analysis: Another function is defined to perform sentiment analysis using spaCy TextBlob.
 Word Cloud Generation: Word clouds are generated to visualize the most frequent positive and negative words in the reviews.
